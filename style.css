@@ -1,0 +1,269 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.img_container {
+    margin: 10px auto;
+    width: 90%;
+    height: 10vh;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 7px #fff;
+
+}
+
+.heading {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+    box-shadow: 0px 2px 10px rgba(74, 39, 39, 0.26);
+
+}
+
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.center-container {
+    width: 100%;
+    top: 60%;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.pole {
+    height: 600px;
+    width: 10px;
+    background-color: black;
+    border-top-left-radius: 10px;
+}
+
+.flag {
+    width: 405px;
+    height: 270px;
+    box-shadow: 5px 5px 10px 5px #777;
+}
+
+.flag-stand {
+    width: 135px;
+    height: 35px;
+    background-color: #000000;
+    margin-top: auto;
+    position: relative;
+    left: -480px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.section {
+    height: 33.33%;
+    box-sizing: border-box;
+}
+
+.section-top {
+    background-color: #ff9933;
+}
+
+.section-middle {
+    padding: 4.5px;
+    background-color: #ffffff;
+}
+
+.section-bottom {
+    background-color: green;
+}
+
+.ashok-chakra {
+    width: 72px;
+    height: 72px;
+    position: relative;
+    border: 4.5px solid #000080;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.ashok-chakra::before {
+    content: "";
+    position: absolute;
+    top: 29.25px;
+    left: 29.25px;
+    height: 13.5px;
+    width: 13.5px;
+    background-color: #000080;
+    border-radius: 50%;
+}
+
+.spoke {
+    width: 4.5px;
+    height: 0;
+    position: absolute;
+    top: 34.875px;
+    left: 36px;
+    border-top: 1.125px solid transparent;
+    border-radius: 9px solid #000080;
+    border-bottom: 1.125px solid transparent;
+    transform-origin: 0 1.125px;
+}
+
+.spoke::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -1.125px;
+    left: 13.5px;
+    border-top: 1.125px solid transparent;
+    border-left: 22.5px solid #000080;
+    border-bottom: 1.125px solid transparent;
+}
+
+.spoke::after {
+    content: "";
+    position: absolute;
+    width: .3.6px;
+    height: 3.6px;
+    top: 2.97px;
+    left: 34.2px;
+    background-color: #000080;
+    border-radius: 50%;
+}
+
+.spoke-1 {
+    transform: rotate(0deg);
+}
+
+.spoke-2 {
+    transform: rotate(15deg);
+}
+
+.spoke-3 {
+    transform: rotate(30deg);
+}
+
+.spoke-4 {
+    transform: rotate(45deg);
+}
+
+.spoke-5 {
+    transform: rotate(60deg);
+}
+
+.spoke-6 {
+    transform: rotate(75deg);
+}
+
+.spoke-7 {
+    transform: rotate(90deg);
+}
+
+.spoke-8 {
+    transform: rotate(105deg);
+}
+
+.spoke-9 {
+    transform: rotate(120deg);
+}
+
+.spoke-10 {
+    transform: rotate(135deg);
+}
+
+.spoke-11 {
+    transform: rotate(150deg);
+}
+
+.spoke-12 {
+    transform: rotate(165deg);
+}
+
+.spoke-13 {
+    transform: rotate(180deg);
+}
+
+.spoke-14 {
+    transform: rotate(195deg);
+}
+
+.spoke-15 {
+    transform: rotate(210deg);
+}
+
+.spoke-16 {
+    transform: rotate(225deg);
+}
+
+.spoke-17 {
+    transform: rotate(240deg);
+}
+
+.spoke-18 {
+    transform: rotate(255deg);
+}
+
+.spoke-19 {
+    transform: rotate(270deg);
+}
+
+.spoke-20 {
+    transform: rotate(285deg);
+}
+
+.spoke-21 {
+    transform: rotate(300deg);
+}
+
+.spoke-22 {
+    transform: rotate(315deg);
+}
+
+.spoke-23 {
+    transform: rotate(330deg);
+}
+
+.spoke-24 {
+    transform: rotate(345deg);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .center-container {
+        width: 98%;
+        margin-top: 30px;
+        margin-left: 3%;
+    }
+
+    .wrapper {
+        width: 98%;
+    }
+
+    .img_container {
+        display: flex;
+        padding: 15px;
+    }
+
+    .heading {
+        font-size: 18px;
+        text-align: center;
+    }
+}
